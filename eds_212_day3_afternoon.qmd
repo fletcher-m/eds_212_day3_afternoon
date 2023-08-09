@@ -1,0 +1,25 @@
+---
+title: "eds_212_day3_afternoon"
+---
+
+## Vectors in R
+
+```{r}
+marmots <- c("blue", "green", 4, "yellow", TRUE)
+
+class(marmots)
+# all same class of "characters"
+marmots
+```
+
+Create a numeric Vector
+
+```{r}
+pika <- c(12.4, 6.5, 4.5, 3.2, 5.6)
+
+class(pika)
+```
+
+```{r}
+bear <- c(20L, 3L, 5L, 18L)
+```
